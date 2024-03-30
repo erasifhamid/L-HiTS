@@ -1,9 +1,9 @@
-#### Latent Hierarchical Time stepping (L-HiTS) Scheme
+# Latent Hierarchical Time stepping (L-HiTS) Scheme
 This code was used to simulate the results in manuscript titled "**Enhancing Computational Efficiency in Multiscale Systems using
 Deep Learning of Coordinates and Flow Maps**"
 ##
 ![Architecture Diagram](figures/BD.png)
-#### Data
+# Data
 Create a "Data" folder. Add two subfolders "FHN" and "KS". To download the data, the links are given below;
 ####
 [FHN](https://drive.google.com/drive/folders/1qVFnnF6S-f0aAB8IztOU2LctSFAAmsyj?usp=drive_link)
@@ -12,7 +12,7 @@ Create a "Data" folder. Add two subfolders "FHN" and "KS". To download the data,
 ####
 
 
-#### Getting Started
+# Getting Started
 #
 clone the entire directory
 #
@@ -24,7 +24,7 @@ conda activate <ENV_NAME>
 #
 conda install pytorch torchvision -c pytorch
 #
-### Training
+# Training
 Train models for all benchmark systems via script "scritps/model_training.ipynb"
 #
 Save models in "models" folder (Automatically saved on running "model_training" file)
