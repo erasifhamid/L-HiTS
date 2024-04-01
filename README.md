@@ -4,7 +4,7 @@ Deep Learning of Coordinates and Flow Maps**"
 ##
 ![Architecture Diagram](figures/BD.png)
 # Data
-Create a "Data" folder. Add two subfolders "FHN" and "KS". To download the data, the links are given below;
+Make a folder with the name "Data". Add two subfolders "FHN" and "KS", and copy paste data files in these subfolders. To download the data files, click on the links given below;
 ####
 [FHN](https://drive.google.com/drive/folders/1qVFnnF6S-f0aAB8IztOU2LctSFAAmsyj?usp=drive_link)
 ####
@@ -29,13 +29,13 @@ Train models for all benchmark systems via script "scritps/model_training.ipynb"
 #
 Save models in "models" folder (Automatically saved on running "model_training" file)
 #
-Run "latentTestAE.ipynb"  to test on various latent dimensions 
+Run "latentTestAE.ipynb"  to test on various latent dimensions. 
 #
 Run ""LhitsvsZ_plot.ipynb"" to obtain the sensitivity analysis plot
 #
-Run "AEHITSplotting.ipynb" to reproduce main figures of KS and FHN.
+Run "AEHITSplotting.ipynb" to reproduce main figures (Figure 4 & Figure 5) of KS and FHN.
 #
-You need to change the system to "FHN" or "KS" to obtain the results of "FHN" or "KS" 
+You need to change the system to "FHN" or "KS" to obtain the respective results of "FHN" or "KS" .
 
 
 # For any technical issues please contact on erasifhamid@gmail.com
